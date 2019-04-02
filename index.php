@@ -43,12 +43,12 @@ switch($_GET["action"]) {
 }
 }
 ?>
-<HTML>
-<HEAD>
-<TITLE>Simple PHP Shopping Cart</TITLE>
+<html>
+<head>
+<title>Simple PHP Shopping Cart</title>
 <link href="style.css" type="text/css" rel="stylesheet" />
-</HEAD>
-<BODY>
+</head>
+<body>
 <div id="shopping-cart">
 <div class="txt-heading">Shopping Cart</div>
 
@@ -125,5 +125,5 @@ if(isset($_SESSION["cart_item"])){
 	}
 	?>
 </div>
-</BODY>
-</HTML>
+</body>
+</html>
